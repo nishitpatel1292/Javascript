@@ -99,4 +99,7 @@ let obj = {
   
   console.log( obj.for + obj.let + obj.return );
 
-
+  let str = user2.toString();
+  console.log(str); 
+  str = user2.valueOf();
+  console.log(str);
