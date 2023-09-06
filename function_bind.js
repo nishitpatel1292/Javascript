@@ -9,4 +9,4 @@ setTimeout(function(){
     user.sayHi();
 },1000);
 let fun = user.sayHi.bind(user);
-// setTimeout(fun,1000);
+setTimeout(fun,1000);
