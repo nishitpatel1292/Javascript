@@ -22,6 +22,7 @@ function outer(){
 const fn = outer() //1
 fn()
 fn()
+fn()
 
 //In JS, when we return a function from another function, we are effectively returning a combination of the function definition along with the function's scope
 //  This would let the function definition have an associated persistent memory which could hold on to live data between executions. 
