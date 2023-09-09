@@ -4,6 +4,7 @@
 //   unshift(...items) adds items to the beginning.
 
 //array too can have function
+
 let fruits = [
     "Apple",
     "Orange",
@@ -38,4 +39,4 @@ arr2.push(function() {
   console.log( this );
 });
 
-arr2[2]();
+(arr2[2]());
