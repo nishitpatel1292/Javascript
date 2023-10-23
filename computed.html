@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        .box {
+            width: 50px;
+            height: 30px;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .green {
+            background-color: green;
+        }
+        .center { 
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    
+
+
+    </style>
+</head>
+
+<body>
+    Learning Javascript
+    <!-- <button  id="btn1">Click me</button> -->
+    <div style="display: flex; justify-content:center; gap: 10px;">
+        <div class="box red" onclick="playAudio()" >
+            <audio id="myAudio" src="/ASSETS/DRUM 1.mp3"></audio></div>
+        <div class="box blue" onclick="playAudio()"><audio id="myAudio" src="/ASSETS/DRUM 1.mp3"></audio></div>
+        <div class="box green" onclick="playAudio()"><audio id="myAudio" src="/ASSETS/DRUM 1.mp3"></audio></div>
+    </div>
+    <div class="center"></div>
+
+    <!-- <div class="box"  style="color: wheat;">Click me to play audio</div> -->
+ 
+    <script src="./computed.js"></script>
+</body>
+
+</html>
